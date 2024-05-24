@@ -9,5 +9,5 @@ $ npm install @nesvet/ui-utils
 Or
 
 ```sh
-$ yarn add @nesvet/ui-utils
+$ bun add @nesvet/ui-utils
 ```

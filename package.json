@@ -1,34 +1,34 @@
 {
-	"name": "@nesvet/ui-utils",
-	"version": "1.0.47",
-	"description": "Various UI utilities",
-	"type": "module",
-	"main": "./lib/index.js",
-	"module": "./lib/index.js",
-	"exports": {
-		".": "./lib/index.js",
-		"./holdTimeout": "./lib/holdTimeout.js",
-		"./catchClick": "./lib/catchClick.js",
-		"./dispatchEventThrough": "./lib/dispatchEventThrough.js"
-	},
-	"packageManager": "yarn@1.22.22",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nesvet/ui-utils.git"
-	},
-	"keywords": [
-		"ui",
-		"utility",
-		"holdTimeout",
-		"catchClick",
-		"dispatchEventThrough"
-	],
-	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
-	"license": "MIT",
-	"devDependencies": {
-		"@nesvet/eslint-config": "^1"
-	}
+  "name": "@nesvet/ui-utils",
+  "version": "1.0.47",
+  "description": "Various UI utilities",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./holdTimeout": "./lib/holdTimeout.js",
+    "./catchClick": "./lib/catchClick.js",
+    "./dispatchEventThrough": "./lib/dispatchEventThrough.js"
+  },
+  "packageManager": "bun@1.1.9",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesvet/ui-utils.git"
+  },
+  "keywords": [
+    "ui",
+    "utility",
+    "holdTimeout",
+    "catchClick",
+    "dispatchEventThrough"
+  ],
+  "author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@nesvet/eslint-config": "^1"
+  }
 }
